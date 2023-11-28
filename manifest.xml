@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
         <remote name="dev"
-		fetch="https://github.com/roynatech2544"
+		fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-20.0" />
 	<remote name="8890q"
 		fetch="https://github.com/8890q"
