@@ -13,4 +13,7 @@
 	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="master"/>
 	<!-- KSU -->
 	<project path="kernel/samsung/r3q/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.7.1"/>
+	<!-- Qcom common -->
+	<project path="device/qcom/common" name="AOSPA/android_device_qcom_common" remote="github" revision="uvite"/>
+	<project path="vendor/qcom/common" name="ThankYouMario/proprietary_vendor_qcom_common" remote="github" revision="uvite"/>
 </manifest>
