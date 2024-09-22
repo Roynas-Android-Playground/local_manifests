@@ -2,7 +2,7 @@
 <manifest>
         <remote name="eureka"
 		fetch="https://github.com/eurekadevelopment"
-		revision="android-14"/>
+		revision="android-15"/>
 	<remote name="eureka-slsi-linaro"
 		fetch="https://github.com/eurekadevelopment"
 		revision="lineage-21"/>
@@ -11,7 +11,7 @@
 		revision="lineage-21"/>
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
-		revision="lineage-21"/>
+		revision="lineage-22"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka"/>
@@ -22,17 +22,22 @@
         <project path="hardware/samsung_slsi/libbt"
                  name="android_hardware_samsung_slsi_libbt"
                  remote="lineage-cp"/>
-        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"
-                 name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
-                 remote="lineage-cp" />
         <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
                  name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
                  remote="lineage-cp" />
+	<!-- Use my fork for now
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"
+                 name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
+                 remote="lineage-cp" />
+	-->
 
         <!-- Royna's forks and repos -->
+        <project path="hardware/samsung_slsi/scsc_wifibt/wifi_hal"
+                 name="android_hardware_samsung_slsi_scsc_wifibt_wifi_hal"
+                 remote="royna"/>
         <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna"/>
-        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fourteen"/>
+        <project path="hardware/samsung" name="android_hardware_samsung" remote="royna" revision="fifteen"/>
 
         <!-- SLSI Linaro -->
 	<project path="hardware/samsung_slsi-linaro/graphics"
