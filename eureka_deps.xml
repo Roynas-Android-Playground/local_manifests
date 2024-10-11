@@ -12,6 +12,8 @@
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 		revision="lineage-22"/>
+        <remote name="vv"
+                fetch="https://github.com/vijaymalav564"/>
 
         <!-- Eureka -->
         <project path="device/samsung" name="android_device_samsung_exynos7885" remote="eureka"/>
@@ -50,4 +52,7 @@
                  name="android_hardware_samsung_slsi-linaro_config" remote="eureka-slsi-linaro" />
         <project path="hardware/samsung_slsi-linaro/openmax"
                  name="android_hardware_samsung_slsi-linaro_openmax" remote="eureka-slsi-linaro" />
+
+	<!-- LLVM -->
+        <project path="prebuilts/clang/host/linux-x86/clang-vortex" name="vortex-clang" remote="vv" revision="master"/>
 </manifest>
