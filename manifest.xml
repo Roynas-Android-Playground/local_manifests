@@ -5,8 +5,8 @@
 		revision="vic" />
 
         <!-- Sync trees -->
-	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" />
-	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev"/>
+	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" revision="15" />
+	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev" revision="15"/>
 	<project path="kernel/lenovo/tb128fu" name="kernel_lenovo_tb128fu" remote="dev" revision="master"/>
 	<project path="vendor/lenovo/sm6225-common" name="vendor_lenovo_sm6225-common" remote="dev"/>
 	<project path="vendor/lenovo/tb128fu" name="vendor_lenovo_tb128fu" remote="dev" />
