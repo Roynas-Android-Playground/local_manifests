@@ -12,5 +12,5 @@
 	<project path="hardware/samsung" name="android_hardware_samsung" remote="dev"/>
 	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="lineage-22"/>
 	<!-- KSU -->
-	<project path="kernel/samsung/r3q/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.7.1"/>
+	<project path="kernel/samsung/r3q/KernelSU" name="KernelSU-Next/KernelSU-Next" remote="github" revision="next-susfs"/>
 </manifest>
