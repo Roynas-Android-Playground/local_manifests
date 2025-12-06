@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="dev"
-		fetch="https://github.com/Roynas-Android-Playground"
-		revision="vic" />
+    <remote name="dev"
+			fetch="https://github.com/Roynas-Android-Playground"
+			revision="bka" />
 
         <!-- Sync trees -->
 	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" />
 	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev"/>
-	<project path="kernel/lenovo/tb128fu" name="kernel_lenovo_tb128fu" remote="dev" revision="master"/>
+	<project path="kernel/lenovo/tb128fu" name="kernel_lenovo_tb128fu" remote="dev" revision="master" recurse_submodules="true"/>
 	<project path="vendor/lenovo/sm6225-common" name="vendor_lenovo_sm6225-common" remote="dev"/>
 	<project path="vendor/lenovo/tb128fu" name="vendor_lenovo_tb128fu" remote="dev" />
 
-	<!-- KSU -->
-	<project path="kernel/lenovo/tb128fu/KernelSU" name="tiann/KernelSU" remote="github" revision="refs/tags/v0.9.5"/>
-        <!-- Ext -->
-	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="lineage-22"/>
+    <!-- Ext -->
+	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="lineage-23.1"/>
 </manifest>
