@@ -62,6 +62,6 @@
 	
         <!-- Royna's forks and repos -->
         <project path="hardware/samsung" name="android_hardware_samsung" remote="royna"/>
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-22"/>
+        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="royna" revision="lineage-22.2"/>
         <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="royna" revision="lineage-22"/>
 </manifest>
