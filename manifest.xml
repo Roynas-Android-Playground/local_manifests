@@ -10,7 +10,7 @@
 		<remote name="slsi-linaro"
 				fetch="https://github.com/Roynas-Android-Playground"
 				review="review.lineageos.org"
-				revision="lineage-23.0"/>
+				revision="lineage-23.2"/>
 
     <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
