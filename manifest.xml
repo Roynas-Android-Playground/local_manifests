@@ -6,7 +6,7 @@
 
         <!-- Sync trees -->
 	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" />
-	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev" revision="16"/>
+	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev" revision="sixteen"/>
 	<project path="kernel/lenovo/tb128fu" name="kernel_lenovo_tb128fu" remote="dev" revision="master" recurse_submodules="true"/>
 	<project path="vendor/lenovo/sm6225-common" name="vendor_lenovo_sm6225-common" remote="dev"/>
 	<project path="vendor/lenovo/tb128fu" name="vendor_lenovo_tb128fu" remote="dev" />
