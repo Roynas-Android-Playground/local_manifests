@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="lineage-cp"
+          fetch="https://github.com/LineageOS"
+          review="review.lineageos.org"
+          revision="lineage-23.2"/>
+  <remote name="Rocky7842"
+          fetch="https://github.com/Rocky7842"
+          revision="lineage-23.2"/>
+  
+  <!-- Devices -->
+	<project path="device/samsung/d1x" name="android_device_samsung_d1x" remote="Rocky7842"/>
+	<project path="device/samsung/exynos9820-common" name="android_device_samsung_exynos9820-common" remote="Rocky7842"/>
+
+  <!-- Kernel -->
+	<project path="kernel/samsung/exynos9820" name="android_kernel_samsung_exynos9820" remote="Rocky7842" />
+
+  <!-- Vendors -->
+	<project path="vendor/samsung/d1x" name="proprietary_vendor_samsung_d1x" remote="Rocky7842"/>
+	<project path="vendor/samsung/exynos9820-common" name="proprietary_vendor_samsung_exynos9820-common" remote="Rocky7842"/>
+
+  <!-- LineageOS -->
+  <project path="device/samsung_slsi/sepolicy"
+           name="android_device_samsung_slsi_sepolicy"
+           remote="lineage-cp" />
+  <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
+
+  <!-- SLSI Linaro -->
+  <project path="hardware/samsung_slsi-linaro/graphics"
+           name="android_hardware_samsung_slsi-linaro_graphics" remote="lineage-cp" />
+  <project path="hardware/samsung_slsi-linaro/exynos"
+           name="android_hardware_samsung_slsi-linaro_exynos" remote="lineage-cp" />
+  <project path="hardware/samsung_slsi-linaro/config"
+           name="android_hardware_samsung_slsi-linaro_config" remote="lineage-cp" />
+  <project path="hardware/samsung_slsi-linaro/openmax"
+           name="android_hardware_samsung_slsi-linaro_openmax" remote="lineage-cp" />
+  <project path="hardware/samsung_slsi-linaro/exynos5"
+           name="android_hardware_samsung_slsi-linaro_exynos5" remote="lineage-cp" />
+  <project path="hardware/samsung_slsi-linaro/interfaces"
+           name="android_hardware_samsung_slsi-linaro_interfaces" remote="lineage-cp" />
+</manifest>
