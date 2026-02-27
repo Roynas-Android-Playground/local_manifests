@@ -7,17 +7,23 @@
   <remote name="Rocky7842"
           fetch="https://github.com/Rocky7842"
           revision="lineage-23.2"/>
+  <remote name="linux4-bringup-priv"
+          fetch="https://github.com/linux4-bringup-priv"
+          revision="lineage-23.2"/>
+  <remote name="Roynas-Android-Playground"
+          fetch="https://github.com/Roynas-Android-Playground"
+          revision="lineage-23.2"/>
   
   <!-- Devices -->
-	<project path="device/samsung/d1x" name="android_device_samsung_d1x" remote="Rocky7842" revision="crdroid-16.0"/>
-	<project path="device/samsung/exynos9820-common" name="android_device_samsung_exynos9820-common" remote="Rocky7842"/>
+	<project path="device/samsung/d1x" name="android_device_samsung_d1x" remote="Rocky7842" revision="Roynas-Android-Playground"/>
+	<project path="device/samsung/exynos9820-common" name="android_device_samsung_exynos9820-common" remote="Roynas-Android-Playground"/>
 
   <!-- Kernel -->
 	<project path="kernel/samsung/exynos9820" name="android_kernel_samsung_exynos9820" remote="Rocky7842" />
 
   <!-- Vendors -->
-	<project path="vendor/samsung/d1x" name="proprietary_vendor_samsung_d1x" remote="Rocky7842"/>
-	<project path="vendor/samsung/exynos9820-common" name="proprietary_vendor_samsung_exynos9820-common" remote="Rocky7842"/>
+	<project path="vendor/samsung/d1x" name="proprietary_vendor_samsung_d1x" remote="linux4-bringup-priv"/>
+	<project path="vendor/samsung/exynos9820-common" name="proprietary_vendor_samsung_exynos9820-common" remote="linux4-bringup-priv"/>
 
   <!-- LineageOS -->
   <project path="device/samsung_slsi/sepolicy"
