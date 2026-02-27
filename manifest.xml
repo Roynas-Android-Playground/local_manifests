@@ -15,7 +15,7 @@
           revision="lineage-23.2"/>
   
   <!-- Devices -->
-	<project path="device/samsung/d1x" name="android_device_samsung_d1x" remote="Rocky7842" revision="Roynas-Android-Playground"/>
+	<project path="device/samsung/d1x" name="android_device_samsung_d1x" remote="Roynas-Android-Playground" revision="derpfest-16"/>
 	<project path="device/samsung/exynos9820-common" name="android_device_samsung_exynos9820-common" remote="Roynas-Android-Playground"/>
 
   <!-- Kernel -->
