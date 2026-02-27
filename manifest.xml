@@ -22,8 +22,8 @@
 	<project path="kernel/samsung/exynos9820" name="android_kernel_samsung_exynos9820" remote="Rocky7842" />
 
   <!-- Vendors -->
-	<project path="vendor/samsung/d1x" name="proprietary_vendor_samsung_d1x" remote="linux4-bringup-priv"/>
-	<project path="vendor/samsung/exynos9820-common" name="proprietary_vendor_samsung_exynos9820-common" remote="linux4-bringup-priv"/>
+	<project path="vendor/samsung/d1x" name="vendor_samsung_d1x" remote="linux4-bringup-priv"/>
+	<project path="vendor/samsung/exynos9820-common" name="vendor_samsung_exynos9820-common" remote="linux4-bringup-priv"/>
 
   <!-- LineageOS -->
   <project path="device/samsung_slsi/sepolicy"
