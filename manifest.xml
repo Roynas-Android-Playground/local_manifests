@@ -22,7 +22,7 @@
 	<project path="device/samsung/exynos7885-common" name="device_samsung_exynos7885-common" remote="royna"/>
 
     <!-- Kernel -->
-	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885-priv" recurse_submodules="true" remote="royna" revision="EurekaV2" />
+	<project path="kernel/samsung/exynos7885" name="kernel_samsung_exynos7885" recurse_submodules="true" remote="royna" revision="EurekaV3" />
 
     <!-- Vendors -->
 	<project path="vendor/samsung/a10" name="vendor_samsung_a10" remote="royna"/>
