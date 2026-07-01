@@ -13,4 +13,8 @@
 
     <!-- Ext -->
 	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="lineage-23.2"/>
+
+    <!-- Bluetooth fix: tolerate stale HCI responses from vendor HAL -->
+	<remove-project name="android_packages_modules_Bluetooth" />
+	<project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="dev" revision="tb128fu-DerpFest-16" />
 </manifest>
