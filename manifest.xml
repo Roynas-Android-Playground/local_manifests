@@ -62,4 +62,5 @@
     <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces"
 			 remote="royna"
 			 revision="lineage-23.2"/>
+    <project path="packages/apps/PhhIms" remote="github" name="krazey/ims" revision="main" />
 </manifest>
