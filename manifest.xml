@@ -59,6 +59,8 @@
              name="android_hardware_samsung_slsi-linaro_openmax" remote="slsi-linaro" />
 	
     <!-- Royna's forks and repos -->
+    <project path="hardware/samsung_sisl/fmradio" name="eureka_fm_legacy"
+             remote="royna" revision="new" />
     <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces"
 			 remote="royna"
 			 revision="lineage-23.2"/>
