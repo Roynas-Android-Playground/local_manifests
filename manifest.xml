@@ -9,6 +9,12 @@
     <remote name="external-github"
             fetch="https://github.com" />
 
+    <!-- Upstream has not cut lineage-24.0; this unchanged tip is shared by
+         lineage-22.2 through lineage-23.2. -->
+    <extend-project path="external/bash"
+                    name="LineageOS/android_external_bash"
+                    revision="lineage-23.2" />
+
     <!-- A30 device support -->
     <project path="device/samsung/a30"
              name="device_samsung_a30"
