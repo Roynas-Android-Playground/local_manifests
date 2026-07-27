@@ -106,6 +106,9 @@
     <extend-project path="packages/resources/devicesettings"
                     name="LineageOS/android_packages_resources_devicesettings"
                     revision="lineage-23.2" />
+    <extend-project path="vendor/crowdin"
+                    name="LineageOS/android_vendor_crowdin"
+                    revision="lineage-23.2" />
 
     <!-- A30 device support -->
     <project path="device/samsung/a30"
