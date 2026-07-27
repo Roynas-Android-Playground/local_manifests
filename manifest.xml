@@ -8,6 +8,8 @@
             revision="lineage-24.0" />
     <remote name="external-github"
             fetch="https://github.com" />
+    <remote name="pixelify"
+            fetch="https://github.com/Pixelify-AOSP" />
 
     <!-- A30 device support -->
     <project path="device/samsung/a30"
@@ -68,6 +70,12 @@
     <project path="hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
              name="android_hardware_samsung_slsi_scsc_wifibt_wpa_supplicant_lib"
              remote="lineage-a30" />
+
+    <!-- Pixelify legacy device support -->
+    <project path="device/lineage/sepolicy"
+             name="device_lineage_sepolicy"
+             remote="pixelify"
+             revision="sixteen-qpr2" />
 
     <!-- Telephony compatibility -->
     <project path="packages/apps/PhhIms"
