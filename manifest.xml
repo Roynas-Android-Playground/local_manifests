@@ -23,6 +23,9 @@
     <extend-project path="external/nano"
                     name="LineageOS/android_external_nano"
                     revision="lineage-23.2" />
+    <extend-project path="external/ntfs-3g"
+                    name="LineageOS/android_external_ntfs-3g"
+                    revision="lineage-23.2" />
     <extend-project path="external/openssh"
                     name="LineageOS/android_external_openssh"
                     revision="lineage-23.2" />
