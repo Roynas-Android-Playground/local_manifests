@@ -57,10 +57,10 @@
              name="eureka_fm_legacy"
              remote="royna" />
 
-    <!-- LineageOS-maintained Samsung support -->
+    <!-- Samsung support -->
     <project path="hardware/samsung"
              name="android_hardware_samsung"
-             remote="lineage-a30" />
+             remote="royna" />
     <project path="hardware/samsung_slsi/libbt"
              name="android_hardware_samsung_slsi_libbt"
              remote="lineage-a30" />
