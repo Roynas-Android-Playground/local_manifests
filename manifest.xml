@@ -131,7 +131,7 @@
              name="kernel_samsung_exynos7885-priv"
              remote="royna"
              revision="EurekaV3"
-             recurse_submodules="true" />
+             sync-s="true" />
 
     <!-- Exynos 7885 legacy userspace retained for Linux 4.4 support -->
     <project path="hardware/samsung_slsi-linaro/graphics"
@@ -174,5 +174,6 @@
     <project path="packages/apps/PhhIms"
              name="krazey/ims"
              remote="external-github"
-             revision="main" />
+             revision="main"
+             sync-s="true" />
 </manifest>
