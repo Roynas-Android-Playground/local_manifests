@@ -181,5 +181,6 @@
              name="ewan-xu/AEC3"
              remote="external-github"
              revision="6b11f0f31cd10f6bf68025ccad771f545d87dbce"
-             clone-depth="1" />
+             clone-depth="1"
+             sync-s="true" />
 </manifest>
