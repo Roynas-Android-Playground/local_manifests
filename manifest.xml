@@ -5,16 +5,16 @@
 			revision="bka" />
 
         <!-- Sync trees -->
-	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" revision="16.2" />
-	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev" revision="16.2"/>
+	<project path="device/lenovo/sm6225-common" name="device_lenovo_sm6225-common" remote="dev" revision="17" />
+	<project path="device/lenovo/tb128fu" name="device_lenovo_tb128fu" remote="dev" revision="17" />
 	<project path="kernel/lenovo/tb128fu" name="kernel_lenovo_tb128fu" remote="dev" revision="master" recurse_submodules="true"/>
-	<project path="vendor/lenovo/sm6225-common" name="vendor_lenovo_sm6225-common" remote="dev"/>
-	<project path="vendor/lenovo/tb128fu" name="vendor_lenovo_tb128fu" remote="dev" />
+	<project path="vendor/lenovo/sm6225-common" name="vendor_lenovo_sm6225-common" remote="dev" revision="17" />
+	<project path="vendor/lenovo/tb128fu" name="vendor_lenovo_tb128fu" remote="dev" revision="17" />
 
     <!-- Ext -->
 	<project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces" remote="dev" revision="lineage-23.2"/>
 
-    <!-- Bluetooth fix: tolerate stale HCI responses from vendor HAL -->
+    <!-- Android 17 Bluetooth stack; port the TB128FU vendor-HAL fix separately. -->
 	<remove-project name="android_packages_modules_Bluetooth" />
-	<project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth" remote="dev" revision="tb128fu-DerpFest-16" />
+	<project path="packages/modules/Bluetooth" name="LineageOS/android_packages_modules_Bluetooth" remote="github" revision="lineage-24.0" />
 </manifest>
