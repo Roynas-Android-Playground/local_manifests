@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Krazey's ImsStack and its paired ImsMedia, replacing the AOSP/Lineage ones -->
+    <remove-project name="platform/packages/modules/ImsStack" />
+    <remove-project name="LineageOS/android_packages_modules_ImsMedia" />
+
+    <project path="packages/modules/ImsStack" name="krazey/ImsStack" remote="github" revision="main" />
+    <project path="packages/modules/ImsMedia" name="krazey/ImsMedia" remote="github" revision="main" />
+
+    <!--
+        Krazey's CarrierSettings (org.lineageos.carriersettings) defines the
+        CarrierSettings module, which clashes with the one in
+        hardware/lineage/generic-ims pulled in by generic-ims/ims.mk.
+    -->
+    <!-- <project path="packages/apps/CarrierSettings" name="krazey/CarrierSettings" remote="github" revision="main" /> -->
+</manifest>
