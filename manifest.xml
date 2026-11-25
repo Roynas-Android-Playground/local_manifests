@@ -46,7 +46,7 @@
     <project path="device/samsung_slsi/sepolicy"
 			 name="android_device_samsung_slsi_sepolicy"
 			 remote="royna" revision="lineage-23.2" />
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp" revision="lineage-24.0"/>
 
     <!-- SLSI Linaro -->
     <project path="hardware/samsung_slsi-linaro/graphics"
