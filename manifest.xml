@@ -3,14 +3,14 @@
         <remote name="lineage-cp"
                 fetch="https://github.com/LineageOS"
 				review="review.lineageos.org"
-				revision="lineage-23.2"/>
+				revision="lineage-24.0"/>
         <remote name="royna"
                 fetch="https://github.com/Roynas-Android-Playground"
 				revision="cupcakes"/>
 		<remote name="slsi-linaro"
 				fetch="https://github.com/Roynas-Android-Playground"
 				review="review.lineageos.org"
-				revision="lineage-23.2"/>
+				revision="lineage-24.0"/>
 
     <!-- Devices -->
 	<project path="device/samsung/a10" name="device_samsung_a10" remote="royna"/>
@@ -45,8 +45,8 @@
              remote="lineage-cp" />
     <project path="device/samsung_slsi/sepolicy"
 			 name="android_device_samsung_slsi_sepolicy"
-			 remote="royna" revision="lineage-23.2" />
-    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp" revision="lineage-24.0"/>
+			 remote="royna" revision="lineage-24.0" />
+    <project path="hardware/samsung" name="android_hardware_samsung" remote="lineage-cp"/>
 
     <!-- SLSI Linaro -->
     <project path="hardware/samsung_slsi-linaro/graphics"
@@ -63,5 +63,5 @@
              remote="royna" revision="new" />
     <project path="hardware/samsung-ext/interfaces" name="hardware_samsung-extra_interfaces"
 			 remote="royna"
-			 revision="lineage-23.2"/>
+			 revision="lineage-24.0"/>
 </manifest>
